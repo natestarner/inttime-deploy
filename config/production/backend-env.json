@@ -1,0 +1,4 @@
+{
+  "SPRING_DATASOURCE_URL": "SET_VIA_SECRET",
+  "SPRING_PROFILES_ACTIVE": "production"
+}
