@@ -137,6 +137,7 @@ jobs:
           npx playwright test
         env:
           E2E_BASE_URL: https://inttime-dev.starnerconsulting.co
+          E2E_API_URL: https://inttime-api-dev.starnerconsulting.co
 
       - name: Upload Playwright report
         uses: actions/upload-artifact@v4
